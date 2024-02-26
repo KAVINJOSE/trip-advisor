@@ -198,6 +198,64 @@ body{
     left: 20%;
 }
 
+.beach{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.beach__section__card img{
+    width: 239px;
+    border-radius: 10px;
+}
+
+.beach__section__card{
+    position: relative;
+    font-weight: 600;
+}
+
+.beach__section__card__desc{
+    position:absolute ;
+    color: rgb(255, 255, 255);
+    bottom: 15px;
+    left: 15px;
+    font-size: 24px;
+    width: 200px;
+}
+
+.beach__section{
+    display: flex;
+    gap: 15px;
+}
+
+.madurai__desc{
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+.madurai__desc__adult{
+    font-size: 14px;
+}
+
+.beach__section__card__like img{ 
+    width: 20px;
+}
+
+.beach__section__card__like {
+    position: absolute;
+    right: 5px;
+    border-radius: 5px;
+    top: 5px;
+}
+
+.beach__section__card__like button{
+    padding: 5px;
+    padding-bottom: 2px;
+    border-radius: 100%;
+    border: none;
+}
 
 
 
